@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+}
+
+.all {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  text-align: center;
+  margin: 60px;
+  }
+
+.product-info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  }
+
+  img {
+    border: 1px solid pink;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0px 3px 5px gray;
+  }
+
+.stock {
+  padding: 10px;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: pink;
+  text-decoration: none;
+  color: red;
+  font-size: 25px;
+}
+
+.stock:hover {
+  color: yellow;
+  scale: 1.1;
+}
+
+.color {
+  padding: 10px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 0%;
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+.color:hover {
+  color: red;
+  scale: 1.1;
+}
+
+span {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: limon;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+
+button:hover {
+  color: pink;
+  scale: 1.1;
+}
+
+.cart {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: limon;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
